@@ -1,0 +1,41 @@
+body {
+    padding: 25px;
+    background-color: rgb(110, 108, 96);
+    color: black;
+    font-size: 25px;
+}
+
+.container {
+    margin: 100px;
+    margin-left: 500px;
+}
+.Prov_Box{
+    display: flexbox;
+    font-family: Arial;
+    font-size: 25px;
+    float: left;
+}
+.Kota_Box {
+    display: flexbox;
+    margin-bottom: 8px;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+select {
+    border-radius: 4px;
+    height: 40px;
+    width: 150px;
+    padding: 0 15px;
+    margin-right: 20px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+h2{
+  font-size: 27px; 
+  margin-top: 20px;
+  justify-content: space-between; 
+}

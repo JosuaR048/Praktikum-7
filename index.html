@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h4>Praktikum 7</h4>
+    </center>
+    <div class="container">
+        <div class="Prov_Box">
+            <label for="">Provinsi</label>
+            <select id="provinsi" onchange="Provinsi_Kota()">
+                <option>Jawa Barat</option>
+                <option>Jawa Timur</option>
+                <option>Jawa Tengah</option>
+                <option>Jakarta</option>
+            </select>
+        </div>
+
+        <div class="Kota_Box">
+            <label for="">kota</label>
+            <select id="Kota" onchange="NamaKota()"></select>
+        </div>
+
+        <h2 id="hasil"></h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <input type="checkbox" unchecked="unchecked" class="toggle toggle-md" id="dark" onclick="darkMode()">
+                <td>Nyalakan Dark Mode</td>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
